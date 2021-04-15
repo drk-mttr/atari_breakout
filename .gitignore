@@ -1,1 +1,10 @@
-build/
+.cmake/
+CMakeFiles/
+pge.dir/
+Release/
+x64/
+ALL_BUILD*
+ZERO_CHECK*
+pge.*
+CMakeCache.txt
+*.cmake

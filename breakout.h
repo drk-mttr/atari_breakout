@@ -6,12 +6,12 @@ public:
     bool OnUserCreate() override; // called once at the start of program
     bool OnUserUpdate(float fElapsedTime) override; // called once every frame
 private:
-    // float fBatPos = 20.0f;
-    // float fBatWidth = 40.0f;
-    // float fBatSpeed = 250.0f;
+    float fBatPos = 20.0f;
+    float fBatWidth = 40.0f;
+    float fBatSpeed = 15.0f;
     olc::vf2d vBallPos = {0.0f, 0.0f}; // ball position
     olc::vf2d vBallDir = {0.0f, 0.0f}; // ball direction
-    float fBallSpeed = 20.f; // ball direction
+    float fBallSpeed = 10.0f; // ball direction
     float fBallRadius = 5.0f; // ball radius
 
     olc::vi2d vBlockSize = {16, 16}; // pixels in each tile (16x16 pixels)
